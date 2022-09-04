@@ -33,6 +33,7 @@ Route::post('/ipn', [SslCommerzPaymentController::class, 'ipn']);
 //SSLCOMMERZ END
 
 //Use Package
+//https://github.com/dgvai/laravel-sslcommerz
 Route::get('order','PaymentController@order');
 Route::post('sslcommerz/success','PaymentController@success')->name('payment.success');
 Route::post('sslcommerz/failure','PaymentController@failure')->name('failure');
