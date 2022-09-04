@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use DB;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Library\SslCommerz\SslCommerzNotification;
 
 class SslCommerzPaymentController extends Controller
